@@ -54,13 +54,18 @@ body {
   font-size: 20px;
 }
 
-.font_red {
+.color_red {
   color: red;
+}
+
+.font-size_140per {
+  font-size: 140%;
 }
 
 .bgcolor_silver {
   background-color: silver;
 }
+
 .bgcolor_gold {
   background-color: gold;
 }
