@@ -1,0 +1,66 @@
+body {
+  vertical-align: middle;
+}
+
+#flex_items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#winorlose_btn {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 20%;
+  padding: 10px;
+}
+
+#winorlose_btn input {
+  margin: 5px;
+  height: 30px;
+}
+
+#score {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#sub_score {
+  display: flex;
+  flex-flow: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sub_score div {
+  padding: 5px;
+}
+
+#winning_streak {
+  font-size: 60px;
+  vertical-align: top;
+  text-align: center;
+  margin-top: -10px;
+  height: 70px;
+}
+
+#result {
+  text-align: center;
+  font-size: 20px;
+}
+
+.font_red {
+  color: red;
+}
+
+.bgcolor_silver {
+  background-color: silver;
+}
+.bgcolor_gold {
+  background-color: gold;
+}
