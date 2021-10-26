@@ -1,14 +1,39 @@
 {
   "name": "nejikicounter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "electron": "^15.2.0"
-  }
+  "author": "nikeyan",
+  "license": "MIT",
+  "description": "ポケモンPt/HGSS バトルファクトリー用カウンター",
+  "devDependencies": {
+    "electron": "^15.2.0",
+    "electron-builder": "^22.13.1"
+  },
+  "build": {
+    "appId": "njkc",
+    "productName": "NejikiCounter",
+    "directories": {
+      "output": "./bin"
+    },
+    "files": [
+      "src",
+      "node_modules",
+      "package.json",
+      "package-lock.json"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikeyan/NejikiCounter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikeyan/NejikiCounter/issues"
+  },
+  "homepage": "https://github.com/nikeyan/NejikiCounter#readme"
 }
